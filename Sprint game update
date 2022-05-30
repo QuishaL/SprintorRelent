@@ -53,5 +53,6 @@ int main()
 	}
 		char forward; //Moves the character forward
 		char; Movement(char moves forward backward) { // Moves the character backward
-
+		
+		return 0;
 	}
