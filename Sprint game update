@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include "test.h"
+#include <xkeycheck.h>
+
+
+typedef struct _GameTimer {	//Enables the timer to work
+	int ticks;
+} GameTimer;
+
+void start(GameTimer* myTimer) {
+
+}
+
+void resetGame() {
+
+}
+
+int main()
+{
+	char fn[100];	//Character array holds users first name
+	char ln[100];	//Character array holds users last name
+
+	GameTimer gameTimer;
+
+	//Prompt from stdin for users name
+	printf(PROMPT_MSG);
+	scanf_s("%s %s", fn, 100, ln, 100);
+	printf("Hello! My name is %s %s!\n", fn, ln);
+
+	char m[100];	//Character array holds users sex of male
+	char f[100];	//Character array holds users sex of female
+
+		//prompt from stdin for users gender
+	printf(PROMPT_MSG);
+	printf("I am a %s", m);
+	scanf_s("%s %s", m, 100, f, 100);
+
+	//Print name using stdout
+
+	printf("Male or Female?\n");
+	char choice;
+	scanf_s("%c", &choice, 1);
+	if (choice == 'm') {
+		printf("You choice male");
+	}
+	else {
+		printf("You choice female");
+	}
+	start(&gameTimer); //Starts the timer for the level
+
+	resetGame(); //Runs the reset game function
+	int main();
+	}
+		char forward; //Moves the character forward
+		char; Movement(char moves forward backward) { // Moves the character backward
+
+	}
